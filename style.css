@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Roboto:wght@300;400;500;700;900&display=swap');
+:root{
+    --violet: #776df4;
+    --dark: #4a4c65;
+    --lightgray: #dfdfeb;
+    --lightblue: #bbb6f9;
+    --light: #f8f7fd;
+    --white: #fff;
+    --black: #000;
+    --green: #17c995;
+    --navy: #37384d;
+    --logoFont: 'Chango', cursive;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    }
+    
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+     }
+
