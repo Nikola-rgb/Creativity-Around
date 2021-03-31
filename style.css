@@ -10,6 +10,7 @@
     --green: #17c995;
     --navy: #37384d;
     --logoFont: 'Chango', cursive;
+    --transition: .4s ease;
 }
 
 body{
@@ -17,9 +18,89 @@ body{
     font-family: 'Roboto', sans-serif;
     }
     
-    *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-     }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 1.4rem;
+    background: var(--violet);
+    color: var(--white);
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: 2px solid var(--violet);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background: transparent;
+    color: var(--violet);
+    cursor: pointer;
+}
+
+/***** nav *****/
+
+nav .container {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+
+nav .container .logo {
+    flex: 2;
+    font-size: 1.8rem;
+    color: var(--dark);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+nav .container .logo span {
+    font-family: var(--logoFont);
+    font-size: 2rem;
+    margin-right: 15px;
+    border: 2px solid var(--lightgray);
+    border-radius: 15px;
+    padding: 8px 12px;
+    box-shadow: 0 0 10px 2px var(--lightgray);
+    color: var(--violet);
+}
+
+nav .container ul {
+    flex: 9;
+    display: flex;
+}
+
+nav .container ul li {
+    margin-right: 30px;
+}
+
+nav .container ul li a {
+    font-size: 1.3rem;
+    color: var(--dark);
+    transition: var(--transition);
+}
+
+nav .container ul li a:hover {
+    color: var(--violet);
+}
+
+nav .container .btn {
+    flex: 1; 
+}
 
