@@ -43,7 +43,7 @@ a {
     font-size: 1.4rem;
     background: var(--violet);
     color: var(--white);
-    padding: 15px 25px;
+    padding: 10px 40px;
     border-radius: 20px;
     border: 2px solid var(--violet);
     transition: var(--transition);
@@ -59,8 +59,8 @@ a {
 
 nav .container {
     display: flex;
-    padding: 30px;
     align-items: center;
+    padding: 20px  0;
 }
 
 nav .container .logo {
@@ -84,7 +84,7 @@ nav .container .logo span {
 }
 
 nav .container ul {
-    flex: 9;
+    flex: 8;
     display: flex;
 }
 
@@ -103,7 +103,11 @@ nav .container ul li a:hover {
 }
 
 nav .container .btn {
-    flex: 1; 
+    flex: 2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
 }
 
 /* header */
@@ -201,3 +205,57 @@ header .container .img img{
     color: var(--dark);
     opacity: .5;
 } 
+
+/* Work */
+
+.work{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 100px 0;
+}
+.work hgroup{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--dark);
+}
+.work .container .buttons{
+    margin: 50px 0;
+}
+.work .container .buttons ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.work .container .buttons ul li{
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: var(--dark);
+    transition: var(--transition);
+    padding: 10px 35px;
+}
+.work .container .buttons ul .active{
+    border: 2px solid var(--violet);
+    background: transparent;
+    color: var(--violet);
+    border-radius: 10px;
+}
+
+.work .container .product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.work .container .product .itemBox{
+    flex: 0 0 23%;
+}
+.work .container .product .itemBox img{
+   width: 100%;
+}
+.work .btn{
+    margin-top: 40px;
+}
+
