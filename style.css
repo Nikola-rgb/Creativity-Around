@@ -149,6 +149,7 @@ header .container .text .play a i{
     font-size: 1.4rem;
     color: var(--white);
     transition: var(--transition);
+    border: 2px solid transparent;
 }
 
 header .container .text .play a i:hover {
@@ -232,6 +233,7 @@ header .container .img img{
     margin-right: 20px;
     cursor: pointer;
     font-size: 1.4rem;
+    border: 2px solid transparent;
     color: var(--dark);
     transition: var(--transition);
     padding: 10px 35px;
