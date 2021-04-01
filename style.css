@@ -11,6 +11,8 @@
     --navy: #37384d;
     --logoFont: 'Chango', cursive;
     --transition: .4s ease;
+    --gray: rgba(193, 193, 204, 0.62);
+
 }
 
 body{
@@ -126,7 +128,7 @@ header .container .text h1{
 header .container .text p{
     color: var(--dark);
     opacity: .5;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     margin: 20px 0;
 }
 header .container .text .play{
@@ -142,7 +144,15 @@ header .container .text .play a i{
     border-radius: 50%;
     font-size: 1.4rem;
     color: var(--white);
+    transition: var(--transition);
 }
+
+header .container .text .play a i:hover {
+    border: 2px solid var(--violet);
+    background: transparent;
+    color: var(--violet);
+}
+
 header .container .text .play p{
     margin-left: 35px;
 }
@@ -153,5 +163,41 @@ header .container .img img{
     width: 100%;
 }
 
+/***** about *****/
 
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    background: var(--white);
+    border-radius: 15px;
+    box-shadow: 0 0 25px 1px var(--gray);
+    margin-top: -240px;
+    position: relative;
+}
 
+.about article {
+    flex: 0 0 40%;
+}
+
+.about .col1 {
+    text-align: center;
+    margin: auto 0;
+}
+
+.about .col1 h3 {
+    font-size: 2.2rem;
+    color: var(--gray);
+}
+
+.about .col1 h2 {
+    font-size: 2rem;
+    color: var(--dark);
+}
+
+.about .col2 p {
+    font-size: 1.1rem;
+    margin: 30px 0;
+    color: var(--dark);
+    opacity: .5;
+} 
