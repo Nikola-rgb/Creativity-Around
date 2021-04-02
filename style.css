@@ -315,6 +315,7 @@ header .container .img img{
 /* Team */
 .team{
     background: var(--lightgray);
+    padding-bottom: 80px;
 }
 .team .naslov{
     text-align: center;
