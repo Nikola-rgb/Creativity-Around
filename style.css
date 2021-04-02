@@ -455,11 +455,12 @@ header .container .img img{
 
 .say .container .col2 {
     flex: 0 0 22%;
+    padding-top: 40px;
 }
 
 .say .container .col2 img {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
-    padding: 20px 0;
+    padding-bottom: 20px;
 }
 
