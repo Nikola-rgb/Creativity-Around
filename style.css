@@ -262,3 +262,52 @@ header .container .img img{
     margin-top: 40px;
 }
 
+/***** services *****/
+
+.services hgroup {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.services h2 {
+    font-size: 2.4rem;
+    color: var(--dark);
+}
+
+.services p {
+    font-size: 1.1rem;
+    color: var(--dark);
+    opacity: .5;
+    margin: 20px 0;
+}
+
+.services .row {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 80px 0;
+}
+
+.services i {
+    color: var(--violet);
+    font-size: 5rem;
+}
+
+.services h4 {
+    font-size: 1.5rem;
+    color: var(--dark);
+    margin: 20px 0;
+}
+
+.services a {
+    color: var(--dark);
+    opacity: .5;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    transition: var(--transition);
+}
+
+.services a:hover {
+    color: var(--violet);
+    text-decoration: underline;
+    opacity: 1;
+}
