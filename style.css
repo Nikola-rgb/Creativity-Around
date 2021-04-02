@@ -371,3 +371,92 @@ header .container .img img{
     opacity: 1;
 }
 
+/***** say *****/
+
+.say {
+    padding: 80px 0;
+}
+
+.say .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.say .container .col1 {
+    flex: 0 0 60%;
+}
+
+.say .col1 h3 {
+    font-size: 2.3rem;
+    color: var(--dark);
+}
+
+.say .tekst {
+    display: flex;
+    padding: 50px 0;
+}
+
+.say .tekst i {
+    flex: 0 0 10%;
+    font-size: 3.5rem;
+    color: var(--violet);
+    opacity: .5;
+}
+
+.say .tekst .tekst-1 {
+    flex: 0 0 90%; 
+}
+
+.say .tekst .tekst-1 p {
+    font-size: 1.1rem;
+    color: var(--dark);
+    opacity: .5;
+    padding-bottom: 30px;
+    line-height: 1.5;
+}
+
+.say .tekst .tekst-1 .people {
+    display: flex;
+}
+
+.say .tekst .tekst-1 .people img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.say .tekst .tekst-1 .people p {
+    color: var(--dark);
+    opacity: 1;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 20px;
+}
+
+.say .container .strelice {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.say .container .strelice i {
+    padding: 20px;
+    border: 2px solid var(--gray);
+    border-radius: 20px;
+    color: var(--dark);
+    margin: 0 10px;
+}
+
+.say .container .col2 {
+    flex: 0 0 22%;
+}
+
+.say .container .col2 img {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.empty {
+    flex: 0 0 0.1%;
+    background: var(--gray);
+}
