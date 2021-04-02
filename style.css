@@ -446,6 +446,11 @@ header .container .img img{
     margin: 0 10px;
 }
 
+.empty {
+    flex: 0 0 0.1%;
+    background: var(--gray);
+}
+
 .say .container .col2 {
     flex: 0 0 22%;
 }
@@ -456,7 +461,3 @@ header .container .img img{
     padding: 20px 0;
 }
 
-.empty {
-    flex: 0 0 0.1%;
-    background: var(--gray);
-}
