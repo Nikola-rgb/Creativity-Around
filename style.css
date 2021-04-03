@@ -528,5 +528,154 @@ header .container .img img{
     color: var(--dark);
 }
 
+/***** contact *****/
+.contact {
+    background: var(--lightgray);
+    padding: 80px 0;
+}
+.contact h3 {
+    font-size: 2.3rem;
+    color: var(--dark);
+}
+.contact h5 {
+    font-size: 1.4rem;
+    color: var(--dark);
+    padding: 30px 0;
+}
+.contact p {
+    font-size: 1.1rem;
+    color: var(--dark);
+    opacity: .7;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+.contact .container {
+    display: flex;
+    justify-content: space-between;
+}
+.contact .container .first {
+    flex: 0 0 60%;
+}
+.contact .container .first ul {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+} 
+.contact .container .first ul li {
+    font-size: 1.2rem;
+    color: var(--violet);
+    font-weight: 500;
+    background: transparent;
+    padding: 12px 28px;
+    border: 1px solid var(--violet);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.contact .container .first ul li:hover {
+    background: var(--gray);
+    border: 1px solid var(--gray);
+}
+.contact .container .first form {
+    padding: 50px 0;
+}
+.contact .container .first form i {
+    color: var(--violet);
+    position: relative;
+    right: -15px;
+    color: var(--dark);
+    opacity: .5;
+}
+.contact .container .first form input {
+    width: 80%;
+    margin: 0 0 30px -15px;
+    padding: 10px 40px;
+    font-size: 1.1rem;
+    color: var(--dark);
+    border: 1px solid rgba(135, 135, 142, 0.78);
+    border-radius: 10px;
+}
+.contact .container .first form textarea {
+    width: 80%;
+    border: 1px solid rgba(135, 135, 142, 0.78);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.2rem;
+    color: var(--dark);
+}
+.contact .container .first form i:last-child {
+    left: -35px;
+    top: -10px;
+    font-size: 1.5rem;
+    color: var(--violet);
+    opacity: 0.8;
+    cursor: pointer;
+}
+.contact .container .first .btn {
+    padding: 10px 80px;
+}
+.contact .container .second {
+    flex: 0 0 22%;
+}
+.contact .container .second .social {
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact .container .second .social i {
+    font-size: 1.2rem;
+    flex: 0 0 21%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 2px solid var(--gray);
+    border-radius: 15px;
+    color: var(--dark);
+    text-align: center;
+    margin: 0 12px 12px 0;
+    transition: var(--transition);
+}
+.contact .container .second .social i:hover {
+    color: var(--violet);
+    border: 2px solid var(--violet);
+}
+/***** footer *****/
+footer {
+    background: var(--navy);
+    color: var(--white);
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+footer .container .footer-1 {
+    flex: 0 0 50%;
+}
+footer .container .footer-1 p {
+    font-size: 1.2rem;
+    color: var(--gray);
+}
+footer .container .footer-1 p span {
+    font-size: 1.3rem;
+    color: var(--lightgray);
+    letter-spacing: 1px;
+}
+footer .container .footer-2 {
+    flex: 0 0 50%;
+}
+footer .container .footer-2 ul {
+    display: flex;
+    justify-content: flex-end;
+}
+footer .container .footer-2 ul li a {
+    font-size: 1.3rem;
+    color: var(--lightgray);
+    margin-left: 20px;
+    transition: var(--transition);
+}
+footer .container .footer-2 ul li a:hover {
+    color: var(--violet);
+}
 
 
