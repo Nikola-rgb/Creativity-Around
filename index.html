@@ -7,16 +7,12 @@
     <title>Around</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 
 
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 </head>
 <body>
 <!-- nav   -->
@@ -83,6 +79,7 @@
              </div>
 
           <div class="product">
+              <div class="item-box branding">
               <div class="itemBox branding"><img src="img/brand-1.jpg" alt=""></div>
               <div class="itemBox branding"><img src="img/brand-2.jpg" alt=""></div>
               <div class="itemBox branding"><img src="img/brand-4.jpg" alt=""></div>
@@ -91,22 +88,31 @@
               <div class="itemBox branding"><img src="img/brand-5.jpg" alt=""></div>
               <div class="itemBox branding"><img src="img/brand-7.jpg" alt=""></div>
               <div class="itemBox branding"><img src="img/brand-8.jpg" alt=""></div>
+            </div>
+              <div class="item-box web">
               <div class="itemBox web"><img src="img/web-1.jpg" alt=""></div>
               <div class="itemBox web"><img src="img/web-2.jpg" alt=""></div>
               <div class="itemBox web"><img src="img/web-4.jpg" alt=""></div>
               <div class="itemBox web"><img src="img/web-3.jpg" alt=""></div>
+            </div>
+              <div class="item-box app">
               <div class="itemBox app"><img src="img/app-2.jpg" alt=""></div>
               <div class="itemBox app"><img src="img/app-1.jpg" alt=""></div>
               <div class="itemBox app"><img src="img/app-4.jpg" alt=""></div>
               <div class="itemBox app"><img src="img/app-3.jpg" alt=""></div>
+            </div>
+              <div class="item-box ill">
               <div class="itemBox ill"><img src="img/ill-1.jpg" alt=""></div>
               <div class="itemBox ill"><img src="img/ill-2.jpg" alt=""></div>
               <div class="itemBox ill"><img src="img/ill-3.jpg" alt=""></div>
               <div class="itemBox ill"><img src="img/ill-4.jpg" alt=""></div>
+            </div>
+              <div class="item-box motion">
               <div class="itemBox motion"><img src="img/motion-1.jpg" alt=""></div>
               <div class="itemBox motion"><img src="img/motion-2.jpg" alt=""></div>
               <div class="itemBox motion"><img src="img/motion-4.jpg" alt=""></div>
               <div class="itemBox motion"><img src="img/motion-6.jpg" alt=""></div>
+            </div>
           </div>
          </div>
          <a class="btn" href="">See More</a>
@@ -284,20 +290,62 @@
         <div class="container">
             <div class="col1">
              <h3>What people say about us</h3>
+             <div class="slider-items">
+             <div class="slider-item active">
              <div class="tekst">
                  <i class="fas fa-quote-left"></i>
                  <div class="tekst-1">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime, illo error dolor ut aperiam optio exercitationem dolores laudantium, asperiores, architecto libero. Ipsum, sint reprehenderit? Quisquam, maiores rem ipsum rerum!</p>
+                     <div class="feedback">
+                     <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis maxime, illo error dolor ut aperiam optio exercitationem dolores laudantium, asperiores, architecto libero. Ipsum, sint reprehenderit? Quisquam, maiores rem ipsum rerum!"</p>
                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, quaerat.</p>
-                     <div class="people">
+                    </div>
+
+                     <div class="people-say">
                          <img src="img/people-5-1.jpg" alt="">
-                         <p>Tim Brooks</p>
+                         <p class="name">Tim Brooks</p>
                      </div>
                  </div>
              </div>
+            </div>
+            <div class="slider-item">
+                <div class="tekst">
+                    <i class="fas fa-quote-left"></i>
+                    <div class="tekst-1">
+                        <div class="feedback">
+                        <p>“ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, quaerat.</p>
+                       </div>
+   
+                        <div class="people-say">
+                            <img src="img/people-6.jpg" alt="">
+                            <p class="name">Baga Buiwajaga</p>
+                        </div>
+                    </div>
+                </div>
+               </div>
+
+               <div class="slider-item">
+                <div class="tekst">
+                    <i class="fas fa-quote-left"></i>
+                    <div class="tekst-1">
+                        <div class="feedback">
+                        <p>“ If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer. ”</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, quaerat.</p>
+                       </div>
+   
+                        <div class="people-say">
+                            <img src="img/people-3.jpg" alt="">
+                            <p class="name">Kwaja Leonard</p>
+                        </div>
+                    </div>
+                </div>
+               </div>
+
+            </div>
+
              <div class="strelice">
-                 <i class="fas fa-arrow-left"></i>
-                 <i class="fas fa-arrow-right"></i>
+                 <i class=" prev fas fa-arrow-left"></i>
+                 <i class=" next fas fa-arrow-right"></i>
              </div>
          </div>
          
@@ -530,7 +578,7 @@
      
      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
      <script src="js/owl.carousel.min.js"></script>
-     <script src="js/main.js"></script>
+     <script src="js/main.js" ></script>
       
 </body>
 </html>

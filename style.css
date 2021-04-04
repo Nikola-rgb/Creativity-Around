@@ -237,15 +237,17 @@ header .container .img img{
     color: var(--dark);
     transition: var(--transition);
     padding: 10px 35px;
+    
 }
 .work .container .buttons ul .active{
     border: 2px solid var(--violet);
     background: transparent;
     color: var(--violet);
     border-radius: 10px;
+   
 }
 
-.work .container .product{
+.work .container .product .item-box{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -388,12 +390,23 @@ header .container .img img{
     flex: 0 0 60%;
 }
 
+.say .container .col1 .slider-item{
+    display: none;
+    transition: 1s all;
+}
+.say .container .col1 .slider-item.active{
+    display: block;
+    transition: 1s all;
+    
+}
+
 .say .col1 h3 {
     font-size: 2.3rem;
     color: var(--dark);
 }
 
 .say .tekst {
+    display: none;
     display: flex;
     padding: 50px 0;
 }
@@ -417,17 +430,17 @@ header .container .img img{
     line-height: 1.5;
 }
 
-.say .tekst .tekst-1 .people {
+.say .tekst .tekst-1 .people-say {
     display: flex;
 }
 
-.say .tekst .tekst-1 .people img {
+.say .tekst .tekst-1 .people-say img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
 
-.say .tekst .tekst-1 .people p {
+.say .tekst .tekst-1 .people-say p {
     color: var(--dark);
     opacity: 1;
     font-weight: 500;
@@ -446,6 +459,7 @@ header .container .img img{
     border-radius: 20px;
     color: var(--dark);
     margin: 0 10px;
+    cursor: pointer;
 }
 
 .empty {
