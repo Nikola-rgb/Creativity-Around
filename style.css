@@ -809,7 +809,7 @@ header .container .text p{
 }
 header .container .text .play{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -831,7 +831,7 @@ header .container .text .play a i{
 .about {
     flex-direction: column;
     padding: 50px 30px;
-    margin-top: -130px;
+    margin-top: -150px;
 }
 .about .col1 h3 {
     font-size: 1.5rem;
@@ -1040,7 +1040,12 @@ header .container .text .play a i{
 }
 
 .empty {
-    flex: 0%;
+    flex: none;
+    width: 100%;
+    margin:  0 auto;
+    height: 2px;
+    background: var(--lightgray);
+    margin-top: 50px;
 }
 
 .say .container .col2 {
@@ -1051,7 +1056,7 @@ header .container .text .play a i{
 
 .say .container .col2 img {
     width: 50%;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 /* Blog */
