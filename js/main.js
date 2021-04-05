@@ -1,3 +1,19 @@
+// Navigation zakucation
+
+$(window).scroll(function() {
+    $('nav').toggleClass('scroll', $(this).scrollTop() > 100);
+});
+
+// Hamburger-menu
+
+const menuIcon = document.querySelector(".hamburger-menu");
+
+const navbar = document.querySelector(".nav-bar");
+
+menuIcon.addEventListener("click", () =>{
+    navbar.classList.toggle("change");
+});
+
 
 
 
